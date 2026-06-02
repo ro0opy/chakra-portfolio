@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/chakra-portfolio/static/css/main.a7674dcc.css",
+    "main.js": "/chakra-portfolio/static/js/main.81f4a295.js",
+    "static/js/453.f6025b36.chunk.js": "/chakra-portfolio/static/js/453.f6025b36.chunk.js",
+    "index.html": "/chakra-portfolio/index.html",
+    "main.a7674dcc.css.map": "/chakra-portfolio/static/css/main.a7674dcc.css.map",
+    "main.81f4a295.js.map": "/chakra-portfolio/static/js/main.81f4a295.js.map",
+    "453.f6025b36.chunk.js.map": "/chakra-portfolio/static/js/453.f6025b36.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7674dcc.css",
+    "static/js/main.81f4a295.js"
+  ]
+}
