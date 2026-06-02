@@ -2,7 +2,6 @@
   "name": "chakra-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ro0opy.github.io/chakra-portfolio",
   "dependencies": {
     "@chakra-ui/color-mode": "^2.2.0",
     "@chakra-ui/icons": "^2.2.4",
