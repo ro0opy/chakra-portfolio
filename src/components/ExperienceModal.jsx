@@ -29,7 +29,7 @@ function Experience() {
         <Box>
           <HStack align="start" spacing={4} flexDirection={['column', 'column', 'row']}>
             <Box bg="white" p={2} borderRadius="md" w={['60px', '70px', '80px']} h={['60px', '70px', '80px']} display="flex" alignItems="center" justifyContent="center" border="1px solid #e2e8f0" flexShrink={0}>
-              <Image src="images/heitech.jpg" alt="Heitech Padu Berhad" boxSize={['40px', '48px', '56px']} objectFit="contain" />
+              <Image src={`${process.env.PUBLIC_URL || ''}/images/heitech.jpg`} alt="Heitech Padu Berhad" boxSize={['40px', '48px', '56px']} objectFit="contain" />
             </Box>
             <VStack align="start" spacing={1}>
               <Heading as="h3" size={['sm', 'md']}>Heitech Padu Berhad | Cyberjaya, Selangor</Heading>
@@ -60,7 +60,7 @@ function Experience() {
         <Box>
           <HStack align="start" spacing={4} flexDirection={['column', 'column', 'row']}>
             <Box bg="white" p={2} borderRadius="md" w={['60px', '70px', '80px']} h={['60px', '70px', '80px']} display="flex" alignItems="center" justifyContent="center" border="1px solid #e2e8f0" flexShrink={0}>
-              <Image src="images/tulipresources.jpeg" alt="Tulip Resources" boxSize={['40px', '48px', '56px']} objectFit="contain" />
+              <Image src={`${process.env.PUBLIC_URL || ''}/images/tulipresources.jpeg`} alt="Tulip Resources" boxSize={['40px', '48px', '56px']} objectFit="contain" />
             </Box>
             <VStack align="start" spacing={1}>
               <Heading as="h3" size={['sm', 'md']}>Tulip Resources Sdn Bhd | Bangsar, Kuala Lumpur</Heading>
@@ -88,7 +88,7 @@ function Experience() {
         <Box>
           <HStack align="start" spacing={4} flexDirection={['column', 'column', 'row']}>
             <Box bg="white" p={2} borderRadius="md" w={['60px', '70px', '80px']} h={['60px', '70px', '80px']} display="flex" alignItems="center" justifyContent="center" border="1px solid #e2e8f0" flexShrink={0}>
-              <Image src="images/ppas.png" alt="PPAS" boxSize={['40px', '48px', '56px']} objectFit="contain" />
+              <Image src={`${process.env.PUBLIC_URL || ''}/images/ppas.png`} alt="PPAS" boxSize={['40px', '48px', '56px']} objectFit="contain" />
             </Box>
             <VStack align="start" spacing={1}>
               <Heading as="h3" size={['sm', 'md']}>Selangor Public Library Corporation (PPAS) | Shah Alam, Selangor</Heading>
@@ -113,7 +113,7 @@ function Experience() {
         <Box>
           <HStack align="start" spacing={4} flexDirection={['column', 'column', 'row']}>
             <Box bg="white" p={2} borderRadius="md" w={['60px', '70px', '80px']} h={['60px', '70px', '80px']} display="flex" alignItems="center" justifyContent="center" border="1px solid #e2e8f0" flexShrink={0}>
-              <Image src="images/perundingshahda.jpg" alt="Perunding Shahda" boxSize={['40px', '48px', '56px']} objectFit="contain" />
+              <Image src={`${process.env.PUBLIC_URL || ''}/images/perundingshahda.jpg`} alt="Perunding Shahda" boxSize={['40px', '48px', '56px']} objectFit="contain" />
             </Box>
             <VStack align="start" spacing={1}>
               <Heading as="h3" size={['sm', 'md']}>Perunding Shahda | Alor Setar, Kedah</Heading>

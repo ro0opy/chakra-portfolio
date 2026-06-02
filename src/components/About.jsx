@@ -40,7 +40,7 @@ function About() {
           </Text>
           <Button
             as="a"
-            href="resume.pdf"
+            href={`${process.env.PUBLIC_URL || ''}/resume.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             colorScheme="teal"

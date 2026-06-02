@@ -29,7 +29,7 @@ function Education() {
         <Box>
           <HStack align="start" spacing={4} flexDirection={['column', 'column', 'row']}>
             <Box bg="white" p={2} borderRadius="md" w={['60px', '70px', '80px']} h={['60px', '70px', '80px']} display="flex" alignItems="center" justifyContent="center" border="1px solid #e2e8f0" flexShrink={0}>
-              <Image src="images/uitm.png" alt="UiTM Shah Alam" boxSize={['40px', '48px', '56px']} objectFit="contain" />
+              <Image src={`${process.env.PUBLIC_URL || ''}/images/uitm.png`} alt="UiTM Shah Alam" boxSize={['40px', '48px', '56px']} objectFit="contain" />
             </Box>
             <VStack align="start" spacing={1}>
               <Heading as="h3" size={['sm', 'md']}>Universiti Teknologi MARA (UiTM) | Shah Alam, Selangor</Heading>
@@ -54,7 +54,7 @@ function Education() {
         <Box>
           <HStack align="start" spacing={4} flexDirection={['column', 'column', 'row']}>
             <Box bg="white" p={2} borderRadius="md" w={['60px', '70px', '80px']} h={['60px', '70px', '80px']} display="flex" alignItems="center" justifyContent="center" border="1px solid #e2e8f0" flexShrink={0}>
-              <Image src="images/uitm.png" alt="UiTM Jengka" boxSize={['40px', '48px', '56px']} objectFit="contain" />
+              <Image src={`${process.env.PUBLIC_URL || ''}/images/uitm.png`} alt="UiTM Jengka" boxSize={['40px', '48px', '56px']} objectFit="contain" />
             </Box>
             <VStack align="start" spacing={1}>
               <Heading as="h3" size={['sm', 'md']}>Universiti Teknologi MARA (UiTM) | Bandar Jengka, Pahang </Heading>
