@@ -40,7 +40,7 @@ function About() {
           </Text>
           <Button
             as="a"
-            href="/resume.pdf"
+            href="resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             colorScheme="teal"

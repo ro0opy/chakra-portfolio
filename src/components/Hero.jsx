@@ -64,7 +64,7 @@ function Hero() {
       py={[16, 20, 20]}
       px={[4, 5, 6]}
       color={color}
-      backgroundImage="url('/images/programming.jpg')"
+      backgroundImage="url('images/programming.jpg')"
       backgroundSize="cover"
       backgroundPosition="center"
       backgroundRepeat="no-repeat"
@@ -110,7 +110,7 @@ function Hero() {
           boxShadow="lg"
         >
           <Box borderRadius="full" overflow="hidden" w={['120px', '150px', '180px']} h={['120px', '150px', '180px']} border="4px solid white">
-            <Box as="img" src="/images/portfolio.jpg" alt="Shazreen Affandi" objectFit="cover" w="100%" h="100%" />
+            <Box as="img" src="images/portfolio.jpg" alt="Shazreen Affandi" objectFit="cover" w="100%" h="100%" />
           </Box>
         </Box>
 
