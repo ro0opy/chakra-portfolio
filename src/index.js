@@ -4,14 +4,25 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { ChakraProvider, extendTheme, ColorModeScript } from '@chakra-ui/react';
+
+// Optional: theme config with dark mode support
+const config = {
+  initialColorMode: 'light',
+  useSystemColorMode: false,
+};
+
+const theme = extendTheme({ config });
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <>
+    {/* Ensures correct color mode is loaded before UI */}
+    <ColorModeScript initialColorMode={theme.config.initialColorMode} />
+    <ChakraProvider theme={theme}>
+      <App />
+    </ChakraProvider>
+  </>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

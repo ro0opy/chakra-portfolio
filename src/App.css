@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+/* Mobile Responsive Styles */
+.mobile-bottom-padding {
+  padding-bottom: 60px;
+}
+
+/* Adjust padding on tablet and above */
+@media (min-width: 768px) {
+  .mobile-bottom-padding {
+    padding-bottom: 0;
+  }
+}
+
+/* Smooth transitions for mobile menu */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
