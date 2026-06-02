@@ -30,8 +30,6 @@ const jobTitles = [
   'Software Engineer',
 ];
 
-const PUBLIC_URL = '';
-
 function Hero() {
   const color = useColorModeValue('gray.100', 'gray.100');
   const [activeQuote, setActiveQuote] = useState(0);
